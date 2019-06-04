@@ -1,5 +1,5 @@
 #qrr-overlay {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background: black;
@@ -12,7 +12,7 @@
 
 #qrr-container {
   font-family: sans-serif;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;

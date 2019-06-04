@@ -1,0 +1,38 @@
+{
+  "name": "qrcode-reader",
+  "title": "jQuery QRCode Reader interface",
+  "description": "A jQuery plugin implementing a browser interface for the cozmo jsQR QR code reading library",
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "jquery",
+    "qrcode",
+    "ui"
+  ],
+  "version": "0.0.1",
+  "author": {
+    "name": "Maurizio Manetti",
+    "url": "https://mauntrelio.github.io"
+  },
+  "maintainers": [
+    {
+      "name": "Maurizio Manetti",
+      "email": "maurizio@imanetti.net",
+      "url": "https://mauntrelio.github.io"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mauntrelio/qrcode-reader/blob/master/LICENSE.txt"
+    }
+  ],
+  "bugs": "https://github.com/mauntrelio/qrcode-reader/issues",
+  "homepage": "https://github.com/mauntrelio/qrcode-reader",
+  "docs": "https://github.com/mauntrelio/qrcode-reader",
+  "download": "https://github.com/mauntrelio/qrcode-reader/zipball/master",
+  "dependencies": {
+      "jquery": ">=1.9",
+      "jsqr": ">=1.2.0"
+  }
+}

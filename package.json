@@ -1,6 +1,6 @@
 {
-  "name": "qrcode-reader",
-  "title": "jQuery QRCode Reader interface",
+  "name": "qrcode-reader-jsqr",
+  "title": "Interface for the cozmo jsQR QR code reading library",
   "description": "A jQuery plugin implementing a browser interface for the cozmo jsQR QR code reading library",
   "keywords": [
     "jquery-plugin",

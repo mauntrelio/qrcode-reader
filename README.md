@@ -6,6 +6,8 @@
 
 **qrcode-reader** implements an interface to make use of the webcam available to the browser client in order to scan QR Codes, based on the example provided by **jsQR** at https://cozmo.github.io/jsQR/
 
+Demo available at https://mauntrelio.github.io/demos/qrcode-reader/
+
 # Usage
 
 Include files from the dist folder:

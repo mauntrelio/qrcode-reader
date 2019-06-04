@@ -156,8 +156,6 @@
       // get options for the current called element
       qrr.getOptions(this);
 
-      console.log(qrr.settings);
-
       // show the widget
       qrr.bgOverlay.show();
       qrr.container.slideDown();

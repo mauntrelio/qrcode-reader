@@ -4,7 +4,7 @@
 
 **jsQR** is designed to be a completely standalone library for scanning QR codes: the current plugin redistributes the standalone `jsQR.js` browser script under the Apache 2.0 license. In principle a different library (which should provide the same interface) could be used.
 
-**qrcode-reader** implements an interface to make use of the webcam available to the browser client in order to scan QR Codes, based on the example provided by **jsQR** at https://cozmo.github.io/jsQR/
+**qrcode-reader** implements a web GUI to make use of the webcam available to the browser client in order to scan QR Codes, based on the example provided by **jsQR** at https://cozmo.github.io/jsQR/
 
 Demo available at https://mauntrelio.github.io/demos/qrcode-reader/
 
@@ -35,7 +35,7 @@ Javascript:
 $("#openreader-btn").qrCodeReader();
 ```
 
-Please note that, in order to use the client's webcam, some browsers may require the content to be served over HTTPS.
+Please note that, in order to use the client's webcam, some browsers may require the content to be served over HTTPS (Chrome requires that).
 
 **qrcode-reader** binds the click of the jQuery target element to the opening of the QRCode reader widget interface. The plugin keeps a single instance of the widget across the page, resetting the options according to the clicked bound element.
 
@@ -71,7 +71,6 @@ $("#openreader-btn").qrCodeReader({
   }
 });
 ```
-
 
 ## Available options and defaults
 

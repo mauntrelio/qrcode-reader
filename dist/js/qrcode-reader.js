@@ -2,6 +2,26 @@
 
   "use strict";
 
+  // cross browser request animation frame
+  if ( !window.requestAnimationFrame ) {
+
+    window.requestAnimationFrame = ( function() {
+
+      return window.webkitRequestAnimationFrame ||
+      window.mozRequestAnimationFrame ||
+      window.oRequestAnimationFrame ||
+      window.msRequestAnimationFrame ||
+      function( /* function FrameRequestCallback */ callback, /* DOMElement Element */ element ) {
+
+        window.setTimeout( callback, 1000 / 60 );
+
+      };
+
+    } )();
+
+  }
+
+
   var qrr, // our qrcode reader singletone instance 
     QRCodeReader = function() {};
 

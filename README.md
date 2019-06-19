@@ -14,7 +14,7 @@ Include files from the dist folder:
 
 ```html
 <!-- qrcode-reader core CSS file -->
-<link rel="stylesheet" href="css/qrcode-reader.css">
+<link rel="stylesheet" href="css/qrcode-reader.min.css">
 
 <!-- jQuery -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
